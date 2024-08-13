@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.border{
+    border: 2px solid transparent;
+}
+.navbar{
+    height: 50px;
+    background-color: #0f1111;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav_logo{
+    height:40px;
+    width: 100px;
+   
+}
+/*logo (box1)*/
+.logo{
+    background-image: url(AMZN_BIG.png);
+    background-size:cover;
+    height:40px;
+    width: 70px;
+
+}
+.border:hover{
+    border: 2px solid rgb(253, 186, 1);
+}
+.add_icon{
+    display: flex;
+}
+.firstadd{
+    color:#cccccc;
+    font-size: 0.80 rem;
+    margin-left: 15px;
+}
+.secondadd{
+    color:white;
+    margin-left: 3px;
+}
+/**box 2**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    border-radius: 4px;
+    text-align: center;
+    width: 620px;
+    height: 40px;
+    border: none;
+}
+
+.select{
+    background-color: #0f1111a8;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    width: 45px;
+    height: 40px;
+    color:white;
+    align-items: center;
+}
+.select:hover{
+    background-color:#232525e1;
+}
+.inpsearch{
+    width: 100%;
+    border: none;
+    align-items: center;
+    text-align: center;
+
+}
+.searchicon{
+    display: flex;
+    height: 40px;
+    width:45px;
+    background-color: orangered;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.searchicon:hover{
+    background-color: brown;
+    color:white;
+}
+.box6{
+    display: flex;
+    height: 40px;
+    width: 55px;
+    justify-content: center;
+    align-items: center;
+}
+.firsthome{
+    background-color: #0f1111c7;
+    height: 35px;
+    justify-content: space-evenly;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    color:#cccccc
+    
+}
+.dropdown{
+    color:#cccccc;
+    display: flex;
+    width: 50px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+   
+}
+.home{
+    height: 30px;
+    align-items: center;
+    display: flex;
+}
+.homeimg{
+    background-image: url(festival_sale.jpg);
+    height: 30px;
+    width: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Container */
+.hero{
+    height: 250px;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    display: flex;
+    
+}
+/* Container Box */
+.herocont{
+    height: 420px;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #cccccc;
+}
+
+.box{
+    height: 420px;
+    width: 24%;
+    background-color: whitesmoke;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.text{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+}
+.prod{
+
+    width: 100%;
+    display: flex;
+    padding-bottom: 7%;
+    justify-content:space-evenly;
+}
+.seem{
+    color: rgba(0, 0, 255, 0.473);
+    margin-top: 5px;
+    margin-inline-start: 7%;
+    text-align: left;
+}
+/* Box 1 */
+.item1-item1{
+    height: 130px;
+    width: 120px;
+    background-image: url(img_1.jpg);
+    
+    background-size: cover;
+}
+.item1-item2{
+    height: 130px;
+    width: 120px;
+    background-image: url(img_2.jpg);
+    background-size: cover;
+}
+.item1-item3{
+    height: 130px;
+    width: 120px;
+    background-image: url(img_3.jpg);
+    background-size: cover;
+}
+.item1-item4{
+    height: 130px;
+    width: 120px;
+    background-image: url(img_4.jpg);
+
+    background-size: cover;
+}
+
+/* box 2*/
+.item1-item5{
+    height: 130px;
+    width: 120px;
+    background-image: url(img_5.jpg);
+    
+    background-size: cover;
+}
+.item1-item6{
+    height: 130px;
+    width: 120px;
+    background-image: url(img_6.jpg);
+    background-size: cover;
+}
+.item1-item7{
+    height: 130px;
+    width: 120px;
+    background-image: url(img_7.jpg);
+    background-size: cover;
+}
+.item1-item8{
+    height: 130px;
+    width: 120px;
+    background-image: url(img_8.jpg);
+
+    background-size: cover;
+}
+/** Box 3**/
+
+.img-box3{
+    height: 285px;
+    width: 250px;
+    background-image: url(img_9.jpg);
+    background-size: cover;
+    margin-inline-start: 10%;
+    margin-bottom: 7%;
+}
+/** Box 4**/
+/* box 4 Upper*/
+.upperbox4{
+    height: 150px;
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+}
+.text-box4{
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: left;
+
+}
+.img-box4{
+    background-image: url(img_14.jpg);
+    background-size: cover;
+    height: 110px;
+    width: 110px;
+    margin-right: 10px;
+    margin-top: 15px;
+
+}
+/* for lower box*/
+
+.img-box4-lower{
+    background-image: url(img_18.jpg);
+    width: 100%;
+    height: 270px;
+    background-size: cover;
+}
+.divborder{
+    background-color: #cccccc;
+    height: 15px;
+}
+.herocont1{
+    height: 300px;
+    display: flex;
+    overflow:scroll;
+    margin-left: 15px;
+    justify-content:space-evenly;
+    background-color: #cccccc;
+}
+.box1{
+    height: 300px;
+    margin-inline-start: 15px;
+    border-color: #cccccc;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    background-color: whitesmoke;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.img-boxx{
+    height: 260px;
+    width: 250px;
+    background-image: url(img_5.jpg);
+    background-size: cover;
+    margin: 0px;
+}
+.explore{
+    height: 30px;
+    background: transparent;
+    padding-bottom: 10px;
+}
+.explores{
+    height: 15px;
+    background-color: #cccccc;
+}
